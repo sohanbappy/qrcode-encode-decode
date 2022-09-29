@@ -12,6 +12,12 @@ public class HomeController {
     @Autowired
     QRCodeGenerator qrCodeGenerator;
 
+    @GetMapping("/")
+    public String hello(){
+        return "Hello from QR code generator.";
+    }
+
+
     @PostMapping("/generate-qr")
     public String generateQRCode(@RequestBody QRCodeBuilderInfo body){
         String msg;
