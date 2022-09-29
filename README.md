@@ -3,9 +3,9 @@
 --Read info from QR code images
 
 **API Endpoint:**
--GET > http://localhost:9090/qr/read-qr (param- fileName [string] )
--POST > http://localhost:9090/qr/generate-qr 
-BODY:
+#-GET > http://localhost:9090/qr/read-qr (param- fileName [string] )
+#-POST > http://localhost:9090/qr/generate-qr 
+#BODY:
 ```
 {
 	"name" : "bappy",
