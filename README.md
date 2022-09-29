@@ -1,5 +1,5 @@
 # qrcode-encode-decode
-*--Generate QR code in a simple way (Here used demo DTO using name,phone,mail)*
+### Generate QR code in a simple way (Here used demo DTO using name,phone,mail)
 *--Read info from QR code images
 
 **API Endpoint:**
