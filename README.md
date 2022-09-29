@@ -1,6 +1,6 @@
 # qrcode-encode-decode
---Generate QR code in a simple way (Here used demo DTO using name,phone,mail)
---Read info from QR code images
+*--Generate QR code in a simple way (Here used demo DTO using name,phone,mail)
+*--Read info from QR code images
 
 **API Endpoint:**
 #-GET > http://localhost:9090/qr/read-qr (param- fileName [string] )
