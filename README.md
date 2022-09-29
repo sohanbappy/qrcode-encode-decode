@@ -1,11 +1,11 @@
 # qrcode-encode-decode
-` Generate QR code in a simple way (Here used demo DTO using name,phone,mail)`
-` Read info from QR code images `
+--Generate QR code in a simple way (Here used demo DTO using name,phone,mail) <br />
+--Read info from QR code images <br />
 
-**API Endpoint:**
-#-GET > http://localhost:9090/qr/read-qr (param- fileName [string] )
-#-POST > http://localhost:9090/qr/generate-qr 
-#BODY:
+**API Endpoint:** <br />
+-GET > http://localhost:9090/qr/read-qr (param- fileName [string] ) <br />
+-POST > http://localhost:9090/qr/generate-qr <br />
+BODY: <br />
 ```
 {
 	"name" : "bappy",
@@ -13,6 +13,7 @@
 	"mail" : "bappy@gmail.com"
 }
 ```
-**N.B:**
--static filePath is used.
--helper files added in res folder.
+**N.B:** <br />
+-static filePath is used. <br />
+-helper files added in res folder. <br />
+
